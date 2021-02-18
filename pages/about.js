@@ -1,11 +1,10 @@
-import Nav from "../components/Nav/Nav";
+import MainContainer from "../components/MainContainer/MainContainer";
 
 const About = () => {
   return (
-    <>
-      <Nav />
+    <MainContainer title='About' >
       <h1>About page</h1>
-    </>
+    </MainContainer>
   );
 };
 

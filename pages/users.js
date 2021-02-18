@@ -1,6 +1,6 @@
 import React from 'react';
-import Nav from "../components/Nav/Nav";
 import Link from "next/link";
+import MainContainer from "../components/MainContainer/MainContainer";
 
 const Users = ({users}) => {
 
@@ -14,11 +14,10 @@ const Users = ({users}) => {
   )
 
   return (
-    <>
-      <Nav />
+    <MainContainer title='Users' >
       <h1>Users</h1>
       {userList}
-    </>
+    </MainContainer>
   );
 };
 

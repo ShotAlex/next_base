@@ -1,17 +1,11 @@
-import Nav from "../components/Nav/Nav";
-import Head from "next/head";
+import MainContainer from "../components/MainContainer/MainContainer";
 
 
 const Index = () => {
   return (
-    <>
-      <Head>
-        <meta keywords="ssr nextjs js react" />
-        <title>Main</title>
-      </Head>
-      <Nav />
+    <MainContainer title='Home' >
       <h1>Main page</h1>
-    </>
+    </MainContainer>
   );
 };
 
