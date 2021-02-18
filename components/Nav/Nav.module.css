@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    transition: .25s;
+    font-family: Geneva, sans-serif;
+}
+
+.link+.link {
+    margin-left: 10px;
+}
+
+.link:hover {
+    color: red;
+}
