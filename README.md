@@ -1,6 +1,6 @@
 # NEXT
 
-###[Application link](https://next-base.vercel.app/)
+[Application link](https://next-base.vercel.app/)
 
 ## How started
 
