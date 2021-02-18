@@ -1,6 +1,6 @@
 import {useRouter} from "next/router";
 
-export default ({user}) => {
+export default function userPage({user}){
   const {query} = useRouter()
 
   return (
